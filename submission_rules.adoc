@@ -346,10 +346,10 @@ The file <system_desc_id>.json should contain the following metadata describing 
 |  |  |  |  |
 | system_name | Yes | tpu-v3 | 8ball | 8ball
 | number_of_nodes | Yes | 1 | 1 | 1
-| host_processors_per_node | Yes | 1 | 2 | 2
+| host_processors_per_node | Yes | 4 | 2 | 2
 | host_processor_model_name | Yes | Intel Skylake | Intel Xeon Platinum 8164 | Intel Xeon Platinum 8164 
 | host_processor_core_count | Yes, or vcpu |  | 26 | 26
-| host_processor_vcpu_count | Yes, or core | 96 | |
+| host_processor_vcpu_count | Yes, or core | 24 | |
 | host_processor_frequency |  |  | 2000MHz | 2000MHz
 | host_processor_caches |  |  | L1: 32KB I + 32KB D per core, L2: 1MB I+D per core, L3: 37.75MB I+D per chip | L1: 32KB I + 32KB D per core, L2: 1MB I+D per core, L3: 37.75MB I+D per chip
 | host_processor_interconnect |  |  | 3x 10.6GT/s UPI | 3x 10.6GT/s UPI
