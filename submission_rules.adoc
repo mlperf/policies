@@ -100,17 +100,7 @@ MLPerf has several submission rounds each year. Each submission round follows a 
 
 ### Schedule of submission rounds
 
-The submission schedule is to be set yearly, and must be approved by both the inference and training submitters meetings. The following is the remaining 2019 submission schedule.
-
-
-|===
-| Submission round | Submission date
-| Inference v0.5 | October 11th
-|===
-
-
-The following is the draft 2020 submission schedule:
-
+The submission schedule is to be set yearly, and must be approved by both the inference and training submitters meetings. The following is the draft 2020 submission schedule:
 
 |===
 | Submission round | Submission date
