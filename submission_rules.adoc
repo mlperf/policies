@@ -294,6 +294,17 @@ Training benchmark directory names must be one of  { **resnet, ssd, maskrcnn, tr
 ******* run_x/ # 1 run for all scenarios
 ******** mlperf_log_summary.txt
 ******** mlperf_log_detail.txt
+******** spl.txt # only needed for power submission
+******* ranging/ # only needed for power submission
+******** mlperf_log_detail.txt # logs from ranging run in power submission
+******** mlperf_log_summary.txt # logs from ranging run in power submission
+******** spl.txt # logs from ranging run in power submission
+******* power/ # only needed for power submission
+******** client.json
+******** client.log
+******** ptd_logs.txt
+******** server.json
+******** server.log
 ****** accuracy/
 ******* mlperf_log_summary.txt
 ******* mlperf_log_detail.txt
@@ -317,7 +328,6 @@ Training benchmark directory names must be one of  { **resnet, ssd, maskrcnn, tr
 ******* verify_performance.txt
 ******* verify_accuracy.txt # for TEST01 only
 
-
 System names and implementation names may be arbitrary. 
 
 <benchmark> must be one of {**resnet50, ssd-mobilenet, ssd-resnet34, rnnt, bert-99, bert-99.9, dlrm-99, dlrm-99.9, 3d-unet-99, 3d-unet-99.9**}. The postfix '-99' and '-99.9' indicate that the accuracy must be >= 99% or 99.9% of the target accuracy. 
@@ -339,6 +349,20 @@ Here is the list of mandatory files for all submissions in any division/category
 *   <system_desc_id>_<implementation_id>_<scenario>.json
 *   <system_desc_id>.json
 *   compliance_checker_log.txt
+
+For power submission, the following files are also mandatory:
+
+*   mlperf_log_summary.txt from ranging run
+*   mlperf_log_detail.txt from ranging run
+*   spl.txt from both ranging and testing runs
+*   client.json
+*   client.log
+*   ptd_logs.txt
+*   server.json
+*   server.log
+
+Note that in power submission run, the "mlperf_log_summary.txt" and "mlperf_log_detail.txt" from the testing run are put
+right under "run_1/" to be compatible with submissions without power submission.
 
 For some models mlperf_log_accuracy.json can get very large. Because of this we truncate mlperf_log_accuracy.log in submissions
 using a tool.
