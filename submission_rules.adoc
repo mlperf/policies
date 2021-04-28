@@ -493,12 +493,12 @@ Submitters may adopt the following procedure to ensure that their submission is 
 
 By the submission deadline, the submitter will email the following items to submissions@mlcommons.org to show Proof of Work:
 
-- A URL to the location in public blob storage of an encrypted tarball containing the open/* and closed/* submission files. Any storage mechanism that supports curl may be used.
+- A URL to the location in public blob storage of an encrypted tarball containing the directory structure and files described in the <<directory-structure>> section above. Any storage mechanism that supports curl may be used.
 - A password to the encrypted tarball
 - A sha1sum of the tarball
 - The last two lines of submission_checker_log.txt as cursory evidence of a valid submission
 
-A simple script has been provided to facilitate this process: https://github.com/mlcommons/inference/blob/master/tools/submission/pack_submission.sh
+A simple script has been provided to facilitate this process: https://github.com/mlcommons/logging/blob/master/pack_submission.sh
 
 When the deadline is reached, repository access will be removed for everyone EXCEPT the following parties:
 
