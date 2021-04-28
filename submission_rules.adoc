@@ -623,7 +623,7 @@ Results will be divided into categories based on the availability of the hardwar
 | Category | Hardware | Software
 | Available in cloud | Available for rent in the cloud | Available
 | Available on premise | Available for purchase | Available
-| Preview | Must be available for rent or purchase in time for the next submission or within 180 days whichever is longer | Available except for software required to support substantially new hardware
+| Preview | Must be available for rent or purchase in time for the next equivalent submission or within 180 days whichever is longer | Available except for software required to support substantially new hardware
 | Research, Development, or Internal | Does not meet the above requirements | Does not meet the above requirements
 |===
 
