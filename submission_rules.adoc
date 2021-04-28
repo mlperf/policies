@@ -100,25 +100,7 @@ MLPerf has several submission rounds each year. Each submission round follows a 
 
 ### Schedule of submission rounds
 
-The submission schedule is to be set yearly, and must be approved by both the inference and training submitters meetings. The following is the remaining 2019 submission schedule.
-
-
-|===
-| Submission round | Submission date
-| Inference v0.5 | October 11th
-|===
-
-
-The following is the draft 2020 submission schedule:
-
-
-|===
-| Submission round | Submission date
-| Training v0.7 | June 26
-| Inference v0.7 | September 4
-| Training v0.8 | November 13 [tentative]
-|===
-
+The submission schedule is to be set yearly, and must be approved by both the inference and training submitters meetings. 
 
 ### Single submission round schedule
 
@@ -163,7 +145,7 @@ Each of these phases is described in more detail later in this document.
 | Tuesday | Review committee meeting, discuss objections
 | Wednesday | 
 | Thursday | Review committee meeting, discuss objections
-| Friday | Objections due in Github, audit results due in GitHub for open and closed
+| Friday | Objections due in Github
 | *Week 2* | *Review: objection review* 
 | Monday | Submitter response to objections
 | Tuesday | Review committee meeting, makes easy decisions and requests information about difficult ones
